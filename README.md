@@ -114,3 +114,7 @@ pip3 install geopy
 python -m ipykernel install --user --name feateng
 jupyter notebook --no-browser .
 
+## Extras
+
+The folder ```tourism``` contains a case study for the feature engineering chapter in the book [Applied Data Science in Tourism: Interdisciplinary Approches, Methodologies and Applications](http://datascience-in-tourism.com/). It uses pyspark to solve an AirBnB price prediction task.
+
