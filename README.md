@@ -7,6 +7,8 @@ presented are available as part of some of the underlining libraries
 used. Showing a step-by-step implementation of different feature
 engineering techniques is intended.
 
+See the companion website for details about the book: http://artoffeatureengineering.com/.
+
 The style used in Python is also intentionally kept simple for people
 coming from other languages that plan to use the ideas described in
 the book outside of Python.
@@ -57,14 +59,10 @@ extracting more data from the original tiles. Otherwise the feature
 engineering techniques in Chapter 9's notebook should run fine from
 the extracted boxes.
 
-* (Book Data, Zip format 2.4Gb)[http://artfeatureengineering.com/data/feateng_data.zip]
-* (Book Data, Tar BZip2 format 1.8Gb)[http://artfeatureengineering.com/data/feateng_data.bz2]
-* (Tile Data, Zip format 5.4Gb)[http://artfeatureengineering.com/data/feateng_tiles.zip]
-* (Tile Data, Tar BZip2 format 5.3Gb)[http://artfeatureengineering.com/data/feateng_tiles.bz2]
-
-The full set of intermediate files weights about 20Gb and it is
-distributed as BitTorrent file via Academic Torrents:
-
+* (Book Data, Zip format 2.4Gb)[http://artoffeatureengineering.com/data/feateng_data.zip]
+* (Book Data, Tar BZip2 format 1.8Gb)[http://artoffeatureengineering.com/data/feateng_data.bz2]
+* (Tile Data, Zip format 5.4Gb)[http://artoffeatureengineering.com/data/feateng_tiles.zip]
+* (Tile Data, Tar BZip2 format 5.3Gb)[http://artoffeatureengineering.com/data/feateng_tiles.bz2]
 
 ## Set-up a virtual environment
 
@@ -117,4 +115,6 @@ jupyter notebook --no-browser .
 ## Extras
 
 The folder ```tourism``` contains a case study for the feature engineering chapter in the book [Applied Data Science in Tourism: Interdisciplinary Approches, Methodologies and Applications](http://datascience-in-tourism.com/). It uses pyspark to solve an AirBnB price prediction task.
+
+An extension and improvment for the case studies in Chapter 10 is available in the repository for the [RIIAA'20 Workshop "Feature Engineering for Spatial and Temporal Data "](https://github.com/DrDub/riiaa20_ws25_feateng_space_time).
 
